@@ -80,33 +80,28 @@ geometry - Puntos geométricos formados por las coordenadas latitud y longitud.
    Elegir el mejor modelo y métodos de feature engineering.
      Se decidío que el mejor curso de acción era sacrificar la interpretabilidad por el rendimiento del modelo. Se utilizo PyCaret, para generar un            modelo.
      El setup de PyCaret es la función más importante, aquí es donde realizamos todos nuestros pasos del preprocesamiento de datos. 
-      Parametros :
+     Parametros :
+       • data : Datos para el modelado 
+       • target : Columna de destino que queremos predecir en este caso si es cara o no.
+       • Session_id : ID de sesión definida por el usuario  
+       • normalize : Los modelos de aprendizaje automático funcionan bien cuando las características de entrada no tienen una gran variación,nuestro               dataset presenta diferentes escalas en alguna columnas. Es importante escalar entonces, por lo tanto, usamos el parámetro de normalización            • transformation : Mientras que la normalización reduce, la transformación de varianza cambia los datos para que puedan representarse en una                 distribución gaussiana (curva normal).
+       • remove_multicollinearity : Cuando los datos están altamente correlacionados, nuestros algoritmos tienden a no generalizar muy bien, por lo que           es importante eliminar la multicolinealidad usando los parámetros remove_multicollinearity=true y multicollinearity_threshold en la                       configuración. 
       
-      • Data : Datos para el modelado 
-      
-      • Target : Columna de destino que queremos predecir en este caso si es cara o no
-      
-      • Session_id : ID de sesión definida por el usuario 
-      
-      • Normalize : Los modelos de aprendizaje automático funcionan bien cuando las características de entrada no tienen una gran variación,nuestro               dataset presenta diferentes escalas en alguna columnas. Es importante escalar entonces, por lo tanto, usamos el parámetro de normalización 
-      
-      • Transformation : Mientras que la normalización reduce, la transformación de varianza cambia los datos para que puedan representarse en una                 distribución gaussiana (curva normal). 
-      
-      • remove_multicollinearity : - Cuando los datos están altamente correlacionados, nuestros algoritmos tienden a no generalizar muy bien, por lo que           es importante eliminar la multicolinealidad usando los parámetros remove_multicolinealidad y multicolinealidad_umbral en la configuración. 
-     
-     
+       
 ![image](https://user-images.githubusercontent.com/43472426/199996575-84722fc8-4b26-4105-899f-3947af978a2d.png)
 
 ![image](https://user-images.githubusercontent.com/43472426/199996907-37e3c3f2-00c1-45fd-b41e-dbc9dae4e690.png)
 
 4 - Resultados.
-
     Comparativa con los ditintos modelos ejecutados
+
     
    ![image](https://user-images.githubusercontent.com/43472426/199998522-5155c306-4632-439b-8160-7768d3f4acca.png)
    ![image](https://user-images.githubusercontent.com/43472426/199998852-29cc6c21-ceaa-48d8-bcac-d90850f7383e.png)
    
-    A los efectos de completar esta primera entrega se decidio tomar el modelo de Logistic Regression y realizarle ajustes por default.
+   A los efectos de completar esta primera entrega se decidio tomar el modelo de Logistic Regression y realizarle ajustes por default.
+   
+    
     
    ![image](https://user-images.githubusercontent.com/43472426/200002460-23bf7ec4-309a-48dd-a437-e1103f6a9664.png)
    
