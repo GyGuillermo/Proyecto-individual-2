@@ -78,7 +78,7 @@ geometry - Puntos geométricos formados por las coordenadas latitud y longitud.
 
    El conjunto de datos está claramente desbalanceado.No lo tomaremos en cuenta por ahora.
 
-3 - 
+3 - Modelado y feature engineering.
    Elegir el mejor modelo y métodos de feature engineering.
      Se decidío que el mejor curso de acción era sacrificar la interpretabilidad por el rendimiento del modelo. Se utilizo PyCaret, para generar un            modelo.
      El setup de PyCaret es la función más importante, aquí es donde realizamos todos nuestros pasos del preprocesamiento de datos. 
@@ -95,6 +95,12 @@ geometry - Puntos geométricos formados por las coordenadas latitud y longitud.
 
 ![image](https://user-images.githubusercontent.com/43472426/199996907-37e3c3f2-00c1-45fd-b41e-dbc9dae4e690.png)
 
+4 - Resultados.
+
+    ![image](https://user-images.githubusercontent.com/43472426/199998522-5155c306-4632-439b-8160-7768d3f4acca.png)
+
+
+![image](https://user-images.githubusercontent.com/43472426/199998852-29cc6c21-ceaa-48d8-bcac-d90850f7383e.png)
 
 
   
