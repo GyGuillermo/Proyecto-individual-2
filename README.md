@@ -56,6 +56,18 @@ description - Descripción del anuncio.
 property_type - Tipo de propiedad (Casa, Departamento, PH).
 operation_type - Tipo de operación (Venta).
 geometry - Puntos geométricos formados por las coordenadas latitud y longitud.  
+
+1 - Data Cleaning
+
+  Comprobación y toma de decisiones sobre valores nulos, errores de entrada o lectura.
+  
+    - Manejo de Nulos
+    
+      
+  
+2 - 
+
+
   
   
 
