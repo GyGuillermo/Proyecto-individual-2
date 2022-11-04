@@ -96,11 +96,21 @@ geometry - Puntos geométricos formados por las coordenadas latitud y longitud.
 ![image](https://user-images.githubusercontent.com/43472426/199996907-37e3c3f2-00c1-45fd-b41e-dbc9dae4e690.png)
 
 4 - Resultados.
+    Comparativa con los ditintos modelos ejecutados
+   ![image](https://user-images.githubusercontent.com/43472426/199998522-5155c306-4632-439b-8160-7768d3f4acca.png)
+   ![image](https://user-images.githubusercontent.com/43472426/199998852-29cc6c21-ceaa-48d8-bcac-d90850f7383e.png)
+   
+    A los efectos de completar esta primera entrega se decidio tomar el modelo de Logistic Regression y realizarle ajustes por default.
+    
+   ![image](https://user-images.githubusercontent.com/43472426/200002460-23bf7ec4-309a-48dd-a437-e1103f6a9664.png)
+   
+   ![image](https://user-images.githubusercontent.com/43472426/200002794-f8e926a0-86d8-4df5-8d11-87c8785c0db9.png)
 
-    ![image](https://user-images.githubusercontent.com/43472426/199998522-5155c306-4632-439b-8160-7768d3f4acca.png)
+   Salida final contra el archivo de testeo ( properties_colombia_test.csv )
+   
+   ![image](https://user-images.githubusercontent.com/43472426/200003337-28eb36b0-ba47-445e-9a55-fb685ee87b04.png)
 
 
-![image](https://user-images.githubusercontent.com/43472426/199998852-29cc6c21-ceaa-48d8-bcac-d90850f7383e.png)
 
 
   
