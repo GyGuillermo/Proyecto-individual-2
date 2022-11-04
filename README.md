@@ -61,12 +61,7 @@ geometry - Puntos geométricos formados por las coordenadas latitud y longitud.
 
   Comprobación y toma de decisiones sobre valores nulos, errores de entrada o lectura.
   
-    - Manejo de Nulos
-      - Media
-               - Valores nulos convertidos a la media (promedio) de la columna para todas las características discretas o continuas.
-      - String (NA)
-               - Se convierten los valores nulos en una cadena (texto) "NA" para todas las funciones nominales u ordinales.
-      
+          
 2 - Exploración
 
   Analizar y visualizar los datos para ver y comprender mejor las relaciones y distribuciones.
